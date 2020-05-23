@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "TOMMY HILFIGER AF";
+  src: url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.eot"); /* IE9 Compat Modes */
+  src: url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/styles/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "TOMMY HILFIGER AF", Fallback, sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#div-1 {
+  float: left;
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  height: 26%;
+  text-align: center;
+  background-color: #132452;
+}
+
+#div-2 {
+  float: left;
+  background-color: #ffffff;
+  width: 50%;
+  height: 48%;
+}
+
+#div-3 {
+  float: left;
+  background-color: #cb051c;
+  width: 50%;
+  height: 48%;
+}
+
+#div-4 {
+  float: left;
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  height: 26%;
+  background-color: #132452;
+}
+
+div.let1 {
+  font-size: 16vh; /* px means "pixels": the base font size is now 10 pixels high  */
+  line-height: 1.6;
+  letter-spacing: 11.8vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 5.8%;
+}
+
+div.let2 {
+  font-size: 14.5vh; /* px means "pixels": the base font size is now 10 pixels high  */
+  line-height: 1.8;
+  letter-spacing: 7.26vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 3.7%;
+}
