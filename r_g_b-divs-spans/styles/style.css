@@ -1,0 +1,43 @@
+div {
+  min-height: 1vw;
+}
+
+div#r-g-b-color-0 {
+  background-color: #000000;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-1 {
+  background-color: #0000ff;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-2 {
+  background-color: #00ff00;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-3 {
+  background-color: #00ffff;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-4 {
+  background-color: #ff0000;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-5 {
+  background-color: #ff00ff;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-6 {
+  background-color: #ffff00;
+  height: 12.5vmin;
+}
+
+div#r-g-b-color-7 {
+  background-color: #ffffff;
+  height: 12.5vmin;
+}

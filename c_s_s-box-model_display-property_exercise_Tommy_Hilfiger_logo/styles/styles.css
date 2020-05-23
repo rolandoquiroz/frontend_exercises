@@ -19,9 +19,7 @@ html,
 body {
   font-family: "TOMMY HILFIGER AF", Fallback, sans-serif;
   width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  height: 100vh;
 }
 
 #div-1 {
@@ -29,8 +27,11 @@ body {
   position: relative;
   color: #ffffff;
   width: 100%;
-  height: 26%;
+  height: 26vh;
   text-align: center;
+  font-size: 14.5vh;
+  line-height: 2;
+  letter-spacing: 1.4em; /*total-letter-spacing-HILFIGER = 5.6em and T O M M Y has 4 letter-spacings so single-letter-spacing-TOMMY = 5.6em/4 = 1.4em*/
   background-color: #132452;
 }
 
@@ -38,14 +39,14 @@ body {
   float: left;
   background-color: #ffffff;
   width: 50%;
-  height: 48%;
+  height: 48vh;
 }
 
 #div-3 {
   float: left;
   background-color: #cb051c;
   width: 50%;
-  height: 48%;
+  height: 48vh;
 }
 
 #div-4 {
@@ -53,28 +54,19 @@ body {
   position: relative;
   color: #ffffff;
   width: 100%;
-  height: 26%;
+  height: 26vh;
+  text-align: center;
+  font-size: 14.5vh;
+  line-height: 2;
+  letter-spacing: 0.8em; /*H I L F I G E R has 7 letter-spacings so total-letter-spacing-HILFIGER = 7*0.8em = 5.6em*/
   background-color: #132452;
 }
-
+/*  
 div.let1 {
-  font-size: 16vh; /* px means "pixels": the base font size is now 10 pixels high  */
-  line-height: 1.6;
-  letter-spacing: 11.8vw;
-  text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
   left: 5.8%;
+   left: 4%;
 }
-
-div.let2 {
-  font-size: 14.5vh; /* px means "pixels": the base font size is now 10 pixels high  */
-  line-height: 1.8;
-  letter-spacing: 7.26vw;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  left: 3.7%;
-}
+*/
