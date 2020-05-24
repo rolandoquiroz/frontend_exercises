@@ -33,7 +33,7 @@ body {
   text-align: center;
   font-size: 14.5vh;
   line-height: 2;
-  letter-spacing: 1.225em; /*total-letter-spacing-HILFIGER = 5.6em and T O M M Y has 4 letter-spacings so single-letter-spacing-TOMMY = 5.6em/4 = 1.4em*/
+  letter-spacing: 1.225em; /*total-letter-spacing-HILFIGER = 4.9em and T O M M Y has 4 letter-spacings so single-letter-spacing-TOMMY = 5.6em/4 = 1.225em*/
   background-color: #132452;
 }
 
@@ -62,7 +62,7 @@ body {
   text-align: center;
   font-size: 14.5vh;
   line-height: 2;
-  letter-spacing: 0.7em; /*H I L F I G E R has 7 letter-spacings so total-letter-spacing-HILFIGER = 7*0.7em = 5.6em*/
+  letter-spacing: 0.7em; /*H I L F I G E R has 7 letter-spacings so total-letter-spacing-HILFIGER = 7*0.7em = 4.9em*/
   background-color: #132452;
 }
 

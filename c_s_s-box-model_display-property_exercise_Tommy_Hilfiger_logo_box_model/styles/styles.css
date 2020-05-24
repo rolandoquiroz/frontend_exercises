@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "TOMMY HILFIGER AF";
+  src: url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.eot"); /* IE9 Compat Modes */
+  src: url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/styles/fonts/TOMMY-HILFIGER-AF/TOMMY-HILFIGER-AF.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "TOMMY HILFIGER AF", Fallback, sans-serif;
+}
+
+#red {
+  width: 100%;
+  height: 100vh;
+  background-color: #cb051c;
+}
+
+.blu {
+  background-color: #132452;
+  width: 100%;
+  height: 26vh;
+  color: #ffffff;
+  font-size: 14.5vh;
+  line-height: 2;
+  text-align: center;
+}
+
+.medium {
+  width: 100%;
+  height: 48vh;
+}
+
+#white {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 50%;
+  height: 100%;
+}
+
+#T {
+  letter-spacing: 1.225em; /*total-letter-spacing-HILFIGER = 5.6em and T O M M Y has 4 letter-spacings so single-letter-spacing-TOMMY = 5.6em/4 = 1.4em*/
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-left: 5%; /*This is the key detail in big screens*/
+}
+#H {
+  letter-spacing: 0.7em; /*H I L F I G E R has 7 letter-spacings so total-letter-spacing-HILFIGER = 7*0.7em = 5.6em*/
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-left: 3.4%; /*This is the key detail in big screens*/
+}
