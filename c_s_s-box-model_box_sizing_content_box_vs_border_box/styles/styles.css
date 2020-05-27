@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+#W3C {
+  width: 25%;
+  height: 25vh;
+  background-color: #ffff00;
+  border: 10px solid #ff0000;
+  padding: 40px 40px;
+  margin: 50px auto;
+  text-align: justify;
+}
+
+#IE {
+  box-sizing: border-box;
+  width: 25%;
+  /* height: 25vh; */
+  /* If we don't have a height it's gonna set automatically determine the based on the width value and the amount of content you had but let's say you wanted to make it a little bit bigger */
+  background-color: #ffff00;
+  border: 5px solid #00ff00;
+  padding: 50px 50px;
+  margin: 5px 50px 1px;
+  text-align: justify;
+}

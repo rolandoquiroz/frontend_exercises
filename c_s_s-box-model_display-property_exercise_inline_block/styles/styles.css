@@ -1,0 +1,44 @@
+/* https://www.youtube.com/watch?v=I3zAKyLRciU CSS display: inline-block Explained By Creating a Grid */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0; /*Hack to no margin between inline-blocks - Reason inline behavior*/
+  text-align: center; /*Hack to center divs - Reason inline behavior*/
+}
+.grid-item {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 0; /*Hack exact margin control between all inline-blocks*/
+  /*font-size: 1em;   Hack reset container size to put text on grid item  ????? */  
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.magenta {
+  background-color: magenta;
+}
+.white {
+  background-color: white;
+}
+.cyan {
+  background-color: cyan;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+.chocolate {
+  background-color: chocolate;
+}
