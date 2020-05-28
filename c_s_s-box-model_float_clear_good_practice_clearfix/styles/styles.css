@@ -1,0 +1,47 @@
+/* 
+CSS Creator
+#CSSCreator .com { Contained Floats, the clearfix technique; }
+
+Author: 
+First created 8-May-2004
+
+https://csscreator.com/attributes/containedfloat.php 
+*/
+
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+  *zoom: 1;
+}
+/****************************/
+div#container {
+  width: 400px;
+  min-height: 100px;
+  background: gray;
+}
+
+div.float-1 {
+  width: 300px;
+  height: 300px;
+  background: green;
+  float: left;
+}
+
+div.float-2 {
+  width: 100px;
+  height: 300px;
+  background: yellow;
+  float: left;
+}
+
+div#container > div {
+  opacity: 0.4;
+}
