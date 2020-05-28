@@ -12,7 +12,7 @@
   border: 1px solid #990000;
   margin: 10px;
 }
-/*  */
+/* here is the bad practice solution */
 .clear {
   clear: both;
 }
