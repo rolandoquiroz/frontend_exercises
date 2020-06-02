@@ -1,0 +1,25 @@
+div {
+background-color: #cccccc;
+padding: 5px;
+overflow: auto;
+}
+
+img {
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+div.avatar {
+float:left;
+width: 25%;
+border: 1px solid red;
+}
+
+div.text {
+
+    float: right;
+    width: 65%;
+    border: 1px solid blue;
+    background-color: transparent;
+}
