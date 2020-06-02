@@ -1,0 +1,19 @@
+.flexbox-container {
+  display: inline-flex;
+ 
+  
+}
+.flexbox-item {
+  box-sizing: border-box;
+  border: 3px solid #333333;
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  
+  background-color: #dfdfdf;
+  font-size: 50px;
+}
+.flexbox-item {
+  min-height: 100px;
+}
