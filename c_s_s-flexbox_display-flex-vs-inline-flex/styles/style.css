@@ -1,19 +1,41 @@
-.flexbox-container {
-  display: inline-flex;
  
-  
+
+.container--inline-flex,
+.container--flex {
+  background-color: #64B5F6
+;
+  margin-bottom: 10px; /* just for aesthetics */
 }
-.flexbox-item {
-  box-sizing: border-box;
-  border: 3px solid #333333;
+
+.container--flex {
+  display: flex;
+}
+.container--inline-flex {
+  display: inline-flex;
+}
+.flex-child {
+  flex: 1;
+  min-width: 50px;
+  min-height: 50px;
   margin: 10px;
-  padding: 5px;
-  width: 150px;
-  height: 150px;
-  
-  background-color: #dfdfdf;
-  font-size: 50px;
+  background-color: #F06292;
+;
 }
-.flexbox-item {
-  min-height: 100px;
+
+.flex-color {
+  color: #64B5F6;
+;
+}
+.inline-color {
+  color: #F06292;
+;
+}
+
+/* Remaining styles are just to make the demo look nice */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+code {
+  background-color: #EEEEEE;
+  padding: 1px 5px;
 }
