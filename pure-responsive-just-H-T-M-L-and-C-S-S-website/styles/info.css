@@ -1,0 +1,40 @@
+#info {
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+#info .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-pet {
+  margin: 20px;
+}
+
+.info-pet img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%; /* this makes the pet frame a circle*/
+  border: 7px solid #ffffff; /*the border of the frame*/
+}
+
+@media (min-width:480px) {
+    /* from this width and up: Still mobile? */
+.info-pet {
+    width: 40%; /* It causes 2 columns: flexbox info-pet is a flexible box */
+    /*Two elements takes 80% of the width so they fit. But three takes 120% the third 
+    and the one goes to the next row */
+}
+}
+
+@media (min-width:1024px) {
+    /*from this width and up: Desktop*/
+    .info-pet {
+        width: auto; /*It causes all elements in a row*/
+    }
+}
+

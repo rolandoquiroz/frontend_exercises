@@ -37,3 +37,23 @@ header label {
   /*display click when you makes click: when input type="checkbox has check"*/
   transform: translateX(0%);
 }
+
+@media (min-width: 1024px) {
+  /*from this width and up: desktop*/
+  .menu {
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+  }
+
+  .menu a {
+    border: none; /* deletes border crted on mobile border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+  }
+
+  header label {
+    display: none; /*Hides icon-menu. button is just only for mobile*/
+  }
+}
